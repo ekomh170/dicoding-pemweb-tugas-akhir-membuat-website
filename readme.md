@@ -41,6 +41,6 @@ Submission akan dinilai berdasarkan:
 - [Refrensi](https://colorhunt.co/palette/eac696c8ae7d76582765451f) - warna utama #EAC696, #C8AE7D, #765827, dan #65451F.
 
 ## Kontak
-Jika ada pertanyaan atau saran, silakan hubungi [nama Anda] di [email Anda].
+Jika ada pertanyaan atau saran, silakan hubungi [Eko Muchamad Haryono] di [ekomh13@gmail.com].
 
 Selamat berkarya! 🚀
