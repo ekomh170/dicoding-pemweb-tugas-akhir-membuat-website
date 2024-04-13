@@ -1,0 +1,69 @@
+/* Desktop styles */
+@media (min-width: 1024px) {
+    .content {
+        flex: 1 1 65%;
+        margin-bottom: 2rem;
+    }
+
+    aside {
+        flex: 1 1 30%;
+        margin-bottom: 2rem;
+    }
+}
+
+/* Tablet styles */
+@media (max-width: 1023px) {
+    main {
+        flex-direction: column;
+    }
+
+    .content {
+        flex: 1 1 100%;
+        margin-bottom: 2rem;
+    }
+
+    aside {
+        flex: 1 1 100%;
+        margin-bottom: 2rem;
+    }
+}
+
+/* Mobile styles */
+@media (max-width: 767px) {
+    header {
+        padding: 0.5rem;
+    }
+
+    .logo h1 {
+        font-size: 1.2rem;
+    }
+
+    .menu {
+        flex-direction: column;
+    }
+
+    .menu li {
+        margin: 0.5rem 0;
+    }
+
+    .content {
+        padding: 1rem;
+    }
+
+    .aside-content img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .aside-content h2 {
+        font-size: 1rem;
+    }
+
+    .aside-content p {
+        font-size: 0.8rem;
+    }
+
+    footer {
+        padding: 0.5rem;
+    }
+}

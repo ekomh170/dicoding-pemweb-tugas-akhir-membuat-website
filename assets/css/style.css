@@ -1,0 +1,132 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #EAC696; /* Warna utama */
+}
+
+/* Header styles */
+header {
+    background-color: #765827; /* Warna utama */
+    color: #fff;
+    padding: 1rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    font-size: 1.5rem;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 1rem;
+}
+
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Main styles */
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.content-slider {
+    flex: 1 1 100%;
+    margin-bottom: 2rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.slides {
+    display: flex;
+}
+
+.slider-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #765827; /* Warna utama */
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.slider-button-prev {
+    left: 0;
+}
+
+.slider-button-next {
+    right: 0;
+}
+
+.content {
+    flex: 1 1 65%;
+    margin-bottom: 2rem;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Aside styles */
+aside {
+    flex: 1 1 30%;
+    margin-bottom: 2rem;
+    background-color: #C8AE7D; /* Warna utama */
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.aside-content {
+    text-align: center;
+}
+
+.aside-content img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.aside-content h2 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.aside-content p {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+/* Footer styles */
+footer {
+    background-color: #765827; /* Warna utama */
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
