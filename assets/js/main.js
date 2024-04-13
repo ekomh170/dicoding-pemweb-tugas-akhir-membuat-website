@@ -1,3 +1,4 @@
+// Sliders
 // JavaScript untuk fungsionalitas slider
 const slidesContainer = document.querySelector(".slides");
 const images = [
@@ -51,4 +52,28 @@ prevButton.addEventListener("click", () => {
   slideIndex--;
   tampilkanSlide();
 });
+// Sliders
 
+// Sub Menu
+// Ambil semua elemen menu-item
+const menuItems = document.querySelectorAll(".menu-item");
+
+// Array dari sumber gambar untuk setiap menu-item
+const menuImages = [
+  "assets/img/menu/espresso.jpg",
+  "assets/img/menu/cappucino.jpg",
+  "assets/img/menu/latte.jpg",
+  "assets/img/menu/mocca.jpg",
+];
+
+// Loop melalui setiap menu-item
+menuItems.forEach((menuItem, index) => {
+  // Buat elemen gambar
+  const img = document.createElement("img");
+  img.src = menuImages[index]; // Set sumber gambar sesuai dengan urutan
+  img.alt = menuItem.querySelector("h3").textContent; // Ambil teks judul untuk alt
+
+  // Sisipkan gambar ke dalam menu-item sebagai elemen pertama
+  menuItem.insertBefore(img, menuItem.firstChild);
+});
+// Sub Menu

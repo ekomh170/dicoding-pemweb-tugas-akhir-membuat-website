@@ -7,7 +7,7 @@
 
 /* Body styles */
 body {
-  font-family: "Roboto", sans-serif; 
+  font-family: "Roboto", sans-serif;
   line-height: 1.6;
   background-color: #eac696;
 }
@@ -47,13 +47,26 @@ nav {
   margin-bottom: 1rem;
 }
 
+.menu-item img {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 1rem;
+  border-radius: 50%;
+}
+/* Submenu styles */
 .submenu {
   display: none;
   margin-top: 0.5rem;
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: opacity 0.3s ease, max-height 0.5s ease;
 }
 
 .menu-item:hover .submenu {
   display: block;
+  opacity: 1;
+  max-height: 200px;
 }
 
 .submenu li {
@@ -89,6 +102,13 @@ main {
 .slides {
   display: flex;
 }
+
+.slides img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px; 
+}
+
 
 .slider-button {
   position: absolute;
@@ -138,6 +158,11 @@ address {
   text-decoration: none;
 }
 
+.content h3 {
+  color: #765827;
+  text-decoration: none;
+}
+
 .content a:hover {
   text-decoration: underline;
 }
@@ -165,13 +190,13 @@ aside {
 
 .aside-content h2 {
   font-size: 1.2rem;
-  margin-bottom: 0.75rem; 
+  margin-bottom: 0.75rem;
 }
 
 .aside-content h3 {
-    font-size: 1.2rem;
-    margin-top: 0.75rem; 
-  }
+  font-size: 1.2rem;
+  margin-top: 0.75rem;
+}
 
 .aside-content p {
   font-size: 0.9rem;
