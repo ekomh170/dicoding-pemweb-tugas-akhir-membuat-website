@@ -1,69 +1,68 @@
-/* Desktop styles */
-@media (min-width: 1024px) {
-    .content {
-        flex: 1 1 65%;
-        margin-bottom: 2rem;
-    }
-
-    aside {
-        flex: 1 1 30%;
-        margin-bottom: 2rem;
-    }
-}
-
-/* Tablet styles */
-@media (max-width: 1023px) {
-    main {
-        flex-direction: column;
-    }
-
-    .content {
-        flex: 1 1 100%;
-        margin-bottom: 2rem;
-    }
-
-    aside {
-        flex: 1 1 100%;
-        margin-bottom: 2rem;
-    }
-}
-
-/* Mobile styles */
-@media (max-width: 767px) {
+/* Untuk perangkat mobile */
+@media screen and (max-width: 767px) {
+    /* Header */
     header {
-        padding: 0.5rem;
+      padding: 1rem;
     }
-
-    .logo h1 {
-        font-size: 1.2rem;
+  
+    /* Logo */
+    .logo h2 {
+      font-size: 1.2rem; /* Ubah ukuran font logo */
     }
-
+  
+    /* Menu */
     .menu {
-        flex-direction: column;
+      flex-direction: column;
     }
-
+  
     .menu li {
-        margin: 0.5rem 0;
+      margin-right: 0;
+      margin-bottom: 1rem;
     }
-
+  
+    .menu li a {
+      padding: 0.5rem 1rem; /* Tambahkan padding agar link lebih mudah di-tap */
+    }
+  
+    /* Slider */
+    .content-slider {
+      margin-bottom: 1rem;
+    }
+  
+    /* Content */
     .content {
-        padding: 1rem;
+      padding: 1rem;
+      margin-bottom: 1rem;
     }
-
-    .aside-content img {
-        width: 80px;
-        height: 80px;
+  
+    /* Aside */
+    aside {
+      padding: 1rem;
+      margin-bottom: 1rem;
     }
-
-    .aside-content h2 {
-        font-size: 1rem;
-    }
-
-    .aside-content p {
-        font-size: 0.8rem;
-    }
-
+  
+    /* Footer */
     footer {
-        padding: 0.5rem;
+      padding: 1rem;
     }
-}
+  }
+    
+  /* Untuk perangkat tablet */
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    /* Menu */
+    .menu li {
+      margin-right: 1rem; /* Kembalikan margin antara item menu */
+      margin-bottom: 0; /* Hapus margin bawah untuk item menu */
+    }
+  
+    /* Content */
+    .content {
+      margin-bottom: 1rem; /* Atur margin bawah konten */
+    }
+  
+    /* Aside */
+    aside {
+      margin-bottom: 1rem; /* Atur margin bawah aside */
+    }
+  }
+  

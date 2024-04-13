@@ -2,6 +2,11 @@
 
 Ini adalah submission untuk tugas akhir membuat website Coffe Shop menggunakan HTML, CSS, dan JS. Website ini memiliki tema Coffe Shop dengan warna utama #EAC696, #C8AE7D, #765827, dan #65451F.
 
+## Gambar Website
+
+![Toko Kopi - Eko Muchamad Haryono](assets/img/readme/readme.png)
+
+
 ## Fitur
 - **Halaman Utama**
   - Header
